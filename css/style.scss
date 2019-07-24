@@ -10,7 +10,6 @@
 
 /* Pages / Views */
 // @import "pages/registration";
-/* Top Bar */
 
 /* navbar */
 .navbar{
@@ -25,13 +24,17 @@
 ul{
    margin: 0 auto;
    position: fixed;
-    li{
+}
+li{
      list-style-type: none;
 
-    }
 }
-.logo{
-    margin-left:25px;
+
+.logotext{
+ font-family: 'Indie Flower', cursive;
+ font-size: 25px;
+ color: #FFF;
+ text-align: center;
 }
 .list{
     width: 16px;
@@ -43,6 +46,7 @@ ul{
 
 .activelistitem{
     display: flex;
+    align-items: center;
     flex:1;
     font-family:"Roboto Condensed", sans-serif;
     padding: 10px;
@@ -56,28 +60,11 @@ ul{
     height: 2px;
     background-color:#605f5f;
     content: "";
-    
 
-    }
+}
 .managephoto{
-    
+    border-radius: 50%;
     width: 100px;
     height: 100px;
 
-}
-.mobilesection{
-    margin: 25px 30px;
-}
-.description{
-    color:#605f5f;
-    text-align: center;
-    margin-bottom: 25px;
-}
-.name{
-    color:#56819F;
-    display: inline-block;
-    
-}
-svg:hover{
-    color:red;
 }

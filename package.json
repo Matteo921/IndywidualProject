@@ -26,5 +26,8 @@
   "node-sass": "^4.12.0",
   "onchange": "^6.0.0",
   "browser-sync": "^2.26.7"
+ },
+ "dependencies": {
+  "normalize.css": "^8.0.1"
  }
 }
