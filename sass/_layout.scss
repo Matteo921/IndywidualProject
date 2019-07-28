@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -12,11 +12,16 @@
 
 .container {
     width: 100%;
-    max-width: 1200px;
     margin: 0px auto;
     
 }
-
+body{
+    background-color: #F5F5F2;
+    display: flex;
+    padding-left:250px;
+    width: 100%;
+    padding-top:60px;
+}
 .row:before,
 .row:after {
     content: "";

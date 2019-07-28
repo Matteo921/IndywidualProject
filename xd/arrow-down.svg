@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="7" viewBox="0 0 11 7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9c9c9c;
+      }
+    </style>
+  </defs>
+  <g id="arrow-down" transform="translate(-959 -28)">
+    <g id="arrow-down-2" data-name="arrow-down" transform="translate(958.898 27.885)">
+      <path id="Path_269" data-name="Path 269" d="M5.6,7.115.1,1.033.917.115,5.6,5.508,10.287.115l.815.918Z"/>
+    </g>
+    <path id="Color_Overlay" data-name="Color Overlay" class="cls-1" d="M959,28.918l.815-.918,4.685,5.394L969.185,28l.815.918L964.5,35Z"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35.934" height="46.425" viewBox="0 0 35.934 46.425">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e3e3e3;
+      }
+
+      .cls-2 {
+        fill: #9c9c9c;
+      }
+
+      .cls-3 {
+        fill: #f58220;
+      }
+    </style>
+  </defs>
+  <g id="notifications" transform="translate(-1002.189 -5.311)">
+    <g id="regular" transform="translate(1002.189 5.311)">
+      <rect id="Shape_3_copy_4" data-name="Shape 3 copy 4" class="cls-1" width="1" height="46.425" transform="translate(34.934)"/>
+      <g id="notifications-2" data-name="notifications" transform="translate(0 14.052)">
+        <g id="notifications-3" data-name="notifications" transform="translate(0 0)">
+          <path id="Path_285" data-name="Path 285" d="M17.107,16l-2.415-3.7V6.5a5.535,5.535,0,0,0-11.069,0v5.8L1.107,16H6.642a2.458,2.458,0,0,0,4.83,0ZM4.629,6.5a4.528,4.528,0,0,1,9.057,0V12H4.629Zm-.3,6.5h9.56l1.308,2H3.019Zm4.83,4a1.42,1.42,0,0,1-1.409-1h2.818A1.513,1.513,0,0,1,9.157,17Z" transform="translate(-1.107 -1)"/>
+        </g>
+        <path id="Color_Overlay" data-name="Color Overlay" class="cls-2" d="M5.535,15H0l2.516-3.7V5.5a5.535,5.535,0,0,1,11.069,0v5.8L16,15H10.364a2.458,2.458,0,0,1-4.829,0ZM8.05,16a1.511,1.511,0,0,0,1.409-1H6.642A1.419,1.419,0,0,0,8.05,16ZM1.912,14H14.088L12.78,12H3.22Zm1.61-8.5V11h9.057V5.5a4.528,4.528,0,0,0-9.057,0Z"/>
+      </g>
+      <ellipse id="indicator" class="cls-3" cx="3.88" cy="3.89" rx="3.88" ry="3.89" transform="translate(8.283 10.116)"/>
+    </g>
+  </g>
+</svg>

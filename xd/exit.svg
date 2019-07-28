@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="15" viewBox="0 0 19 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9c9c9c;
+      }
+    </style>
+  </defs>
+  <g id="exit" transform="translate(-1242 -22)">
+    <g id="exit-2" data-name="exit" transform="translate(1242 22)">
+      <path id="Path_265" data-name="Path 265" d="M14.432,3.1l-.727.7L16.923,7H3.115V8H16.923L13.7,11.1l.727.7L19,7.4ZM10.383,14H1.038V1h9.344V4h1.038V0H0V15H11.421V11H10.383Z"/>
+    </g>
+    <path id="Color_Overlay" data-name="Color Overlay" class="cls-1" d="M1242,37V22h11.421v4h-1.039V23h-9.344V36h9.344V33h1.039v4Zm13.705-3.9,3.218-3.1h-13.809V29h13.809l-3.218-3.2.726-.7L1261,29.4l-4.568,4.4Z"/>
+  </g>
+</svg>
