@@ -236,12 +236,65 @@ ul{
     border: 1px solid #E3E3E3;
     font-family: "Roboto Condensed", sans-serif;
     position: fixed;
-    width: 100%;
-    margin-right:;
+    width: 88%;
 }
 .textbox{
-    
+    border-bottom: 2px solid #605f5f;
+    padding:20px;
+}
+/*calendar*/
+.date{
     border-bottom:2px solid #605f5f;
+    display: flex;
+    justify-content: center;
     padding: 20px;
+    cursor: pointer;
+}
+.datebox{
+    border:2px solid #605f5f;
+    border-radius:10px;
+    :hover{
+        border-color: #333333;
+    
+    }
+}
+.returnbtn{
+    width: 50px;
+    height: 50px;
+    border-radius:20%;
+    background-color: #F58220;
+    margin: 10px 0 10px 10px;
+}
 
+.leftdate, .rightdate{
+    display: inline-block;
+    padding: 10px 50px 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+.leftdate{
+    border-right: 1px solid #605f5f;
+}
+.calcuicon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px 15px 10px 10px;
+    background-color: #605f5f;
+
+}
+/*Statistic*/
+.statisticbox{
+    padding:50px;
+    display: flex;
+    width: 88%;
+    background-color:#FFF;
+    justify-content: space-between;
+}
+.statisticwrapper{
+    border-bottom: 2px solid #E3E3E3;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
 }

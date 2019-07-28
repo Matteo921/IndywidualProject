@@ -5,7 +5,11 @@
  "main": "index.js",
  "scripts": {
   "test": "npm-run-all test:*",
-  "watch:browser": "node_modules/.bin/browser-sync start --server --files css/*.css*.html",
+  "build": "npm-run-all build:* test",
+  "build:sass": "node-sass --output-style compact -o css sass",
+  "build:autoprefixer": "autoprefixer-cli css/style.css",
+  "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
+  "watch:browser": "node_modules/.bin/browser-sync start --server --files css/*.css *.html",
   "watch:sass": "node-sass --output-style expanded --source-map true -o css sass --watch",
   "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css"
  },

@@ -1,0 +1,10 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9c9c9c;
+      }
+    </style>
+  </defs>
+  <path id="Path_6" data-name="Path 6" class="cls-1" d="M0,0V4H13V0ZM12,3H1V1H12ZM0,7H3V6H0ZM5,7H8V6H5Zm5,0h3V6H10ZM0,10H3V9H0Zm5,0H8V9H5Zm5,0h3V9H10ZM0,13H3V12H0Zm5,0H8V12H5Zm5,0h3V12H10Z"/>
+</svg>
