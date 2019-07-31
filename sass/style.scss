@@ -235,8 +235,6 @@ ul{
     flex-direction: column;
     border: 1px solid #E3E3E3;
     font-family: "Roboto Condensed", sans-serif;
-    position: fixed;
-    width: 88%;
 }
 .textbox{
     border-bottom: 2px solid #605f5f;
@@ -281,20 +279,39 @@ ul{
     height: 30px;
     display: inline-block;
     margin: 10px 15px 10px 10px;
-    background-color: #605f5f;
+    color: #605f5f;
 
 }
 /*Statistic*/
 .statisticbox{
-    padding:50px;
+    background-color: #FFF;
     display: flex;
-    width: 88%;
-    background-color:#FFF;
-    justify-content: space-between;
+    justify-content: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+
+}
+.Wraprow{
+    margin: 25px;
+    padding:60px;
 }
 .statisticwrapper{
     border-bottom: 2px solid #E3E3E3;
     display: flex;
     justify-content: space-between;
     width: 250px;
+    padding: 40px 10px;
+    color:#605f5f;
+    
+}
+.diagramstatistic{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#FFF;
+   
+
+}
+.diagramtitle{
+    text-align: center;
 }

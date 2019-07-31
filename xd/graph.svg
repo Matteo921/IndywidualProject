@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="655.659" height="348.342" viewBox="0 0 655.659 348.342">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e3e3e3;
+      }
+
+      .cls-2 {
+        fill: #adadad;
+        font-size: 11px;
+      }
+
+      .cls-2, .cls-7, .cls-8 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        fill: #80bfca;
+      }
+
+      .cls-4 {
+        fill: #ff9a38;
+      }
+
+      .cls-5 {
+        fill: #f3f3f1;
+      }
+
+      .cls-6 {
+        fill: #59b66d;
+      }
+
+      .cls-7 {
+        fill: #a6a6a6;
+      }
+
+      .cls-7, .cls-8 {
+        font-size: 16px;
+      }
+
+      .cls-8 {
+        fill: #56819f;
+      }
+    </style>
+  </defs>
+  <g id="graph" transform="translate(0.429 -0.09)">
+    <rect id="horizon_line" data-name="horizon line" class="cls-1" width="624.93" height="1" transform="translate(30.3 328.77)"/>
+    <g id="vertical_devisions" data-name="vertical devisions">
+      <rect id="Shape_4_copy_7" data-name="Shape 4 copy 7" class="cls-1" width="1" height="211.93" transform="translate(30.28 116.82)"/>
+      <rect id="Shape_4_copy_8" data-name="Shape 4 copy 8" class="cls-1" width="1" height="211.93" transform="translate(98.28 116.82)"/>
+      <rect id="Shape_4_copy_9" data-name="Shape 4 copy 9" class="cls-1" width="1" height="211.93" transform="translate(166.28 116.82)"/>
+      <rect id="Shape_4_copy_10" data-name="Shape 4 copy 10" class="cls-1" width="1" height="211.93" transform="translate(234.28 116.82)"/>
+      <rect id="Shape_4_copy_13" data-name="Shape 4 copy 13" class="cls-1" width="1" height="211.93" transform="translate(302.28 116.82)"/>
+      <rect id="Shape_4_copy_14" data-name="Shape 4 copy 14" class="cls-1" width="1" height="211.93" transform="translate(369.28 116.82)"/>
+      <rect id="Shape_4_copy_15" data-name="Shape 4 copy 15" class="cls-1" width="1" height="211.93" transform="translate(437.28 116.82)"/>
+      <rect id="Shape_4_copy_16" data-name="Shape 4 copy 16" class="cls-1" width="1" height="211.93" transform="translate(505.28 116.82)"/>
+      <rect id="Shape_4_copy_17" data-name="Shape 4 copy 17" class="cls-1" width="1" height="211.93" transform="translate(573.28 116.82)"/>
+      <rect id="Shape_4_copy_18" data-name="Shape 4 copy 18" class="cls-1" width="1" height="211.93" transform="translate(641.28 116.82)"/>
+    </g>
+    <g id="y">
+      <text id="_0" data-name="0" class="cls-2" transform="translate(18.571 329.432)"><tspan x="-6.096" y="0">0</tspan></text>
+      <text id="_100" data-name="100" class="cls-2" transform="translate(18.571 295.432)"><tspan x="-18.289" y="0">100</tspan></text>
+      <text id="_200" data-name="200" class="cls-2" transform="translate(18.571 261.432)"><tspan x="-18.289" y="0">200</tspan></text>
+      <text id="_300" data-name="300" class="cls-2" transform="translate(18.571 227.432)"><tspan x="-18.289" y="0">300</tspan></text>
+      <text id="_400" data-name="400" class="cls-2" transform="translate(18.571 193.432)"><tspan x="-18.289" y="0">400</tspan></text>
+      <text id="_500" data-name="500" class="cls-2" transform="translate(18.571 159.432)"><tspan x="-18.289" y="0">500</tspan></text>
+      <text id="_600" data-name="600" class="cls-2" transform="translate(18.571 125.432)"><tspan x="-18.289" y="0">600</tspan></text>
+    </g>
+    <g id="x">
+      <text id="_01" data-name="01" class="cls-2" transform="translate(30.571 345.432)"><tspan x="0" y="0">01</tspan></text>
+      <text id="_02" data-name="02" class="cls-2" transform="translate(97.571 345.432)"><tspan x="0" y="0">02</tspan></text>
+      <text id="_03" data-name="03" class="cls-2" transform="translate(165.571 345.432)"><tspan x="0" y="0">03</tspan></text>
+      <text id="_04" data-name="04" class="cls-2" transform="translate(233.571 345.432)"><tspan x="0" y="0">04</tspan></text>
+      <text id="_05" data-name="05" class="cls-2" transform="translate(301.571 345.432)"><tspan x="0" y="0">05</tspan></text>
+      <text id="_06" data-name="06" class="cls-2" transform="translate(368.571 345.432)"><tspan x="0" y="0">06</tspan></text>
+      <text id="_07" data-name="07" class="cls-2" transform="translate(436.571 345.432)"><tspan x="0" y="0">07</tspan></text>
+      <text id="_08" data-name="08" class="cls-2" transform="translate(504.571 345.432)"><tspan x="0" y="0">08</tspan></text>
+      <text id="_09" data-name="09" class="cls-2" transform="translate(572.571 345.432)"><tspan x="0" y="0">09</tspan></text>
+      <text id="_10" data-name="10" class="cls-2" transform="translate(640.571 345.432)"><tspan x="0" y="0">10</tspan></text>
+    </g>
+    <g id="indicators">
+      <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-3" width="21.63" height="121.81" transform="translate(39.34 206.75)"/>
+      <rect id="Rectangle_11_copy" data-name="Rectangle 11 copy" class="cls-4" width="21.62" height="143.12" transform="translate(68.34 186.44)"/>
+      <rect id="Rectangle_11_copy_2" data-name="Rectangle 11 copy 2" class="cls-3" width="21.62" height="70.56" transform="translate(107.34 258)"/>
+      <rect id="Rectangle_11_copy_2-2" data-name="Rectangle 11 copy 2" class="cls-4" width="21.63" height="58.5" transform="translate(136.34 270.06)"/>
+      <rect id="Rectangle_11_copy_3" data-name="Rectangle 11 copy 3" class="cls-3" width="21.63" height="80.66" transform="translate(175.34 247.91)"/>
+      <rect id="Rectangle_11_copy_3-2" data-name="Rectangle 11 copy 3" class="cls-4" width="21.63" height="105.97" transform="translate(204.34 222.78)"/>
+      <rect id="Rectangle_11_copy_4" data-name="Rectangle 11 copy 4" class="cls-3" width="21.63" height="125.87" transform="translate(243.34 202.69)"/>
+      <rect id="Rectangle_11_copy_4-2" data-name="Rectangle 11 copy 4" class="cls-4" width="21.62" height="94.5" transform="translate(272.34 234.25)"/>
+      <rect id="Rectangle_11_copy_5" data-name="Rectangle 11 copy 5" class="cls-3" width="21.63" height="150.72" transform="translate(310.34 177.84)"/>
+      <rect id="Rectangle_11_copy_5-2" data-name="Rectangle 11 copy 5" class="cls-4" width="21.63" height="160.12" transform="translate(339.34 168.62)"/>
+      <rect id="Rectangle_11_copy_6" data-name="Rectangle 11 copy 6" class="cls-3" width="21.63" height="139.13" transform="translate(377.34 190.44)"/>
+      <rect id="Rectangle_11_copy_6-2" data-name="Rectangle 11 copy 6" class="cls-4" width="21.63" height="47.25" transform="translate(406.34 281.5)"/>
+      <rect id="Rectangle_11_copy_7" data-name="Rectangle 11 copy 7" class="cls-3" width="21.63" height="102.12" transform="translate(446.34 227.44)"/>
+      <rect id="Rectangle_11_copy_7-2" data-name="Rectangle 11 copy 7" class="cls-4" width="21.62" height="75.56" transform="translate(475.34 253.19)"/>
+      <rect id="Rectangle_11_copy_8" data-name="Rectangle 11 copy 8" class="cls-3" width="21.63" height="95.31" transform="translate(513.34 234.25)"/>
+      <rect id="Rectangle_11_copy_8-2" data-name="Rectangle 11 copy 8" class="cls-4" width="21.63" height="177.31" transform="translate(542.34 152.44)"/>
+      <rect id="Rectangle_11_copy_9" data-name="Rectangle 11 copy 9" class="cls-3" width="21.63" height="106.13" transform="translate(581.34 223.44)"/>
+      <rect id="Rectangle_11_copy_9-2" data-name="Rectangle 11 copy 9" class="cls-4" width="21.63" height="115.47" transform="translate(610.34 214.28)"/>
+    </g>
+    <g id="tabs">
+      <rect id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" class="cls-5" width="121.91" height="39.91" rx="3" transform="translate(109.78 0.09)"/>
+      <rect id="Rounded_Rectangle_2_copy" data-name="Rounded Rectangle 2 copy" class="cls-5" width="91.06" height="39.91" rx="3" transform="translate(273.62 0.09)"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-4" cx="7.84" cy="7.84" r="7.84" transform="translate(288.41 11.85)"/>
+      <circle id="Ellipse_3_copy" data-name="Ellipse 3 copy" class="cls-3" cx="7.84" cy="7.84" r="7.84" transform="translate(127.41 11.85)"/>
+      <circle id="Ellipse_3_copy_2" data-name="Ellipse 3 copy 2" class="cls-6" cx="7.84" cy="7.84" r="7.84" transform="translate(409.41 11.85)"/>
+      <text id="Signups" class="cls-7" transform="translate(214.571 25.432)"><tspan x="-56.484" y="0">Signups</tspan></text>
+      <text id="FTD" class="cls-7" transform="translate(345.571 26.432)"><tspan x="-29.188" y="0">FTD</tspan></text>
+      <text id="Earned" class="cls-8" transform="translate(488.571 25.432)"><tspan x="-49" y="0">Earned</tspan></text>
+    </g>
+  </g>
+</svg>
