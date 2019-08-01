@@ -239,6 +239,13 @@ ul{
 .textbox{
     border-bottom: 2px solid #605f5f;
     padding:20px;
+    width: 100%;
+}
+.generalheadertext{
+	font-weight: 600;
+	font-size:20px;
+	color: #ADADAD;
+	display: block;
 }
 /*calendar*/
 .date{
@@ -304,14 +311,25 @@ ul{
     color:#605f5f;
     
 }
-.diagramstatistic{
+.diagrambox{
     display: flex;
     justify-content: center;
     align-items:center;
     background-color:#FFF;
-   
+   	padding:40px;
 
+    
 }
 .diagramtitle{
-    text-align: center;
+	text-align: center;
+	color: #605f5f;
+	font-size:20px;
+	padding:15px;
+}
+/*Banners*/
+.banners{
+	display: flex;
+	padding:20px;
+	background-color:#FFF;
+	flex-direction: column;
 }

@@ -72,7 +72,7 @@
 <div class="containergeneral">
 	<div class="generalbox">
 		<div class="textbox">
-			<h3 class="generaltext">GENERAL STATISTIC</h3>
+			<h3 class="generalheadertext">GENERAL STATISTIC</h3>
 		</div>
 		<div class="date">
 			<div class="datebox">
@@ -108,10 +108,11 @@
 	</div>
 
 </div>
-	<div class="diagramstatistic" >
-		<h4 class="diagramtitle">Earings chart</h4>
-		<div>
-		<canvas id="myChart" width="800" height="400"></canvas>
+	<div class="diagrambox" >
+		<div class="diagram">
+			<h4 class="diagramtitle">Earings chart</h4>
+		
+		<canvas id="myChart" width="800" height="400" style="display:block;" ></canvas>
 		<script type="text/javascript">
 		var ctx = document.getElementById('myChart').getContext('2d');
 				var myChart = new Chart(ctx, {
@@ -144,10 +145,27 @@
 				});
 		</script>
 		</div>
+		</div>
+	</div>
+
+<!--Banners-->
+<div class="containergeneral banners" id="banners">
+	
+	<div class="textbox">
+		<h3 class="generalheadertext">BANNERS</h3>
 	</div>
 
 
+
+
+
+
+
+
 </div>
+
+
+
 </body>
 <!--Script-->
 <link rel="stylesheet" type="text/js" href="js/script.js">

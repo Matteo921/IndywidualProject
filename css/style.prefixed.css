@@ -358,8 +358,6 @@ template {
 
 body {
   background-color: #F5F5F2;
-  display: -ms-flexbox;
-  display: flex;
   padding-left: 250px;
   width: 100%;
   padding-top: 60px;
@@ -565,6 +563,8 @@ a:link {
 
 .containergeneral {
   width: 100%;
+  background-color: #f5f5f2;
+  margin: 10px;
 }
 
 /* Components */
@@ -907,6 +907,14 @@ ul li :hover {
 .textbox {
   border-bottom: 2px solid #605f5f;
   padding: 20px;
+  width: 100%;
+}
+
+.generalheadertext {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ADADAD;
+  display: block;
 }
 
 /*calendar*/
@@ -984,7 +992,7 @@ ul li :hover {
   color: #605f5f;
 }
 
-.diagramstatistic {
+.diagrambox {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -992,9 +1000,23 @@ ul li :hover {
   -ms-flex-align: center;
       align-items: center;
   background-color: #FFF;
+  padding: 40px;
 }
 
 .diagramtitle {
   text-align: center;
+  color: #605f5f;
+  font-size: 20px;
+  padding: 15px;
+}
+
+/*Banners*/
+.banners {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  background-color: #FFF;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 /*# sourceMappingURL=style.prefixed.css.map */
