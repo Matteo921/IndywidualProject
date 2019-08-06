@@ -31,7 +31,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var menuButton = document.querySelector('.menuToggle');
 var navbar = document.querySelector('.navbar');
 var body = document.querySelector('body')
-menuButton.addEventListener('click', () => {
+menuToggle.addEventListener('click', () => {
 	body.classList.toggle('hidden');
 	navbar.classList.toggle('hidden');
 });

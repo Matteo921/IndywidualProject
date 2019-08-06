@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link href="css/style.css" rel="stylesheet">
     <link href="sass/normalize.scss" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,6 +20,23 @@
     <div class="topbar">
 
         <div class="toolsside">
+        	 <nav>
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <li class="elementmenu"><a class="active_menu" href="#general">General<img class="list" src="/icons/general.svg" alt="pic"/></a></li>
+                        <li class="elementmenu"><a class="active_menu" href="#details">Details</a><img class="list" src="/icons/details.svg"  alt="pic"/></li>
+                        <li class="elementmenu"><a class="active_menu" href="#links">Links<img class="list" src="/icons/links.svg" alt="pic" /></a></li>
+                        <li class="elementmenu"><a class="active_menu" href="#banners">Banners<img class="list" src="/icons/banners.svg" alt="pic" /></a></li>
+                        <li class="elementmenu"><a class="active_menu" href="#personaldata">Personal Data<img class="list" src="/icons/personaldata.svg"  alt="pic" /></a></li>
+                        <li class="elementmenu"><a class="active_menu" href="#postback">Postback<img class="list" src="/icons/postback.svg" alt="pic" /></a></li>
+
+                    </ul>
+                </div>
+            </nav>
             <div class="separateline1"></div>
             <span class="walletbox">
 					<img class="wallet" src="/xd/wallet.svg"  alt="abc"/>
@@ -30,7 +48,7 @@
 				class="bell" src="/xd/regular.svg"  alt="abc"/></span>
             <div class="separateline"></div>
             <span class="personicon"><img src="/xd/person.svg"  alt="abc"></span>
-            <span><p class="name">Leonardo DiCaprio</p></span>
+            <p class="name">Leonardo DiCaprio</p>
             <div class="separateline"></div>
             <span class="exiticon"><img class="exit" src="/xd/exit.svg" alt="abc"/></span>
         </div>
@@ -39,41 +57,26 @@
     <nav class="navbar" id="navbar">
         <div class="logomenubox">
             <a href="#"><img class="logo" src="xd/logo.SVG" alt="pic1"></a>
-            <nav>
-                <div id="menuToggle">
-                    <input type="checkbox" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul id="menu">
-                        <li class="elementmenu"><a class="active_menu" href="#general">General<img class="list" src="/icons/general.svg"  alt="pic"/></a></li>
-                        <li class="elementmenu"><a class="active_menu" href="#details">Details<img class="list" src="/icons/details.svg"   alt="pic"/></a></li>
-                        <li class="elementmenu"><a class="active_menu" href="#links">Links<img class="list" src="/icons/links.svg" alt="pic"  /></a></li>
-                        <li class="elementmenu"><a class="active_menu" href="#banners">Banners<img class="list" src="/icons/banners.svg" alt="pic" /></a></li>
-                        <li class="elementmenu"><a class="active_menu" href="#personaldata">Personal Data<img class="list" src="/icons/personaldata.svg"  alt="pic" /></a></li>
-                        <li class="elementmenu"><a class="active_menu" href="#postback">Postback><img class="list" src="/icons/postback.svg"  alt="pic" /></a></li>
-
-                    </ul>
-                </div>
-            </nav>
+           
 
         </div>
 
         <div class="sidebar">
             <ul class="leftmenu">
-                <li class="listitem"><a class="activelistitem" href="#general"><span class="item_icon icon-general">General<img class="list" src="/icons/general.svg"  alt="pic3" /></a></span>
-                </li>
-                <li class="listitem"><a class="activelistitem" href="#details"><span class="item_icon icon-details">Details<img class="list" src="/icons/details.svg"  alt="pic3" /></a></span>
-                </li>
-                <li class="listitem"><a class="activelistitem" href="#links"><span class="item_icon icon-links">Links<img class="list" src="/icons/links.svg" alt="pic3" /></a></span>
-                </li>
-                <li class="listitem"><a class="activelistitem" href="#banners"><span class="item_icon icon-banners">Banners<img class="list" src="/icons/banners.svg"  alt="pic3" /></a></span>
-                </li>
-                <li class="listitem"><a class="activelistitem" href="#personaldata"><span class="item_icon icon-personaldata">Personal Data<img class="list" src="/icons/personaldata.svg" class="pic3" /></a></span>
-                </li>
-                <li class="listitem"><a class="activelistitem" href="#postback"><span class="item_icon icon-postback">Postback<img class="list" src="/icons/postback.svg"  alt="pic3" /></a></span>
-                </li>
-                <div class="horizontalline"></div>
+                <li class="listitem"><a class="activelistitem" href="#details">General<img class="list" src="/icons/general.svg"  alt="pic3" /></a></li>
+                
+                <li class="listitem"><a class="activelistitem" href="#details">Details<img class="list" src="/icons/details.svg"  alt="pic3" /></a></li>
+                
+                <li class="listitem"><a class="activelistitem" href="#links">Links<img class="list" src="/icons/links.svg" alt="pic3" /></a></li>
+                
+                <li class="listitem"><a class="activelistitem" href="#banners">Banners<img class="list" src="/icons/banners.svg"  alt="pic3" /></a></li>
+                
+                <li class="listitem"><a class="activelistitem" href="#personaldata">Personal Data<img class="list" src="/icons/personaldata.svg" alt="pic3" /></a></li>
+                
+                <li class="listitem"><a class="activelistitem" href="#postback">Postback<img class="list" src="/icons/postback.svg"  alt="pic3" /></a>  </li>
+                	
+            </ul>
+            <div class="horizontalline"></div>
                 <div class="mobilesection">
                     <p class="description">YOUR MANAGER</p>
                     <div class="container">
@@ -81,7 +84,6 @@
                         <p class="name">Mikhael E.</p>
                     </div>
                 </div>
-            </ul>
         </div>
 
     </nav>
@@ -102,7 +104,7 @@
         </div>
 
         <!--Statistic-->
-        <div class="statisticbox" id="general">
+        <div class="statisticbox">
             <div class="Wraprow">
                 <div class="statisticwrapper">
                     <h4>Visit Singups</h4>
@@ -132,7 +134,7 @@
             </div>
         </div>
         <!-- Links -->
-        <div class="containergeneral links" id="links">
+        <div class="containergeneral links " id="links">
 
             <div class="textbox">
                 <h3 class="generalheadertext">Links</h3>
@@ -619,8 +621,9 @@
 
 </body>
 <!--Script-->
-<link rel="stylesheet" type="text/js" href="js/script.js">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+<script src="js/script.js"></script>
+
 
 <!---->
 

@@ -135,11 +135,6 @@
 
 /* navbar */
 
-@media(max-width: 762px) {
-    .navbar {
-        display: none;
-    }
-}
 
 .navbar {
     background-color: #191919;
@@ -160,11 +155,6 @@
 
 /*hamburger*/
 
-@media(max-width: 762px) {
-    .navbar {
-        display: show;
-    }
-}
 
 .activemenu {
     text-decoration: none;
@@ -182,9 +172,9 @@ li .elementmenu {
 
 #menuToggle {
     display: block;
-    position: relative;
-    top: 50px;
-    left: 50px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
@@ -242,7 +232,7 @@ li .elementmenu {
 #menu {
     position: absolute;
     width: 300px;
-    margin: -100px 0 0 -50px;
+    margin: 100px 0 0 150px;
     padding: 50px;
     padding-top: 125px;
     background: #ededed;
@@ -293,20 +283,22 @@ li .elementmenu {
 .list {
     width: 20px;
     height: 20px;
-    float: left;
-    margin: 3px 15px 0 5px;
+    margin: 0px 20px 10px 15px;
     background-color: #605f5f;
+    position:absolute;
+    left:0;
+    justify-content: center;
 }
 
 .activelistitem {
     display: flex;
-    flex: 1;
     font-family: "Roboto Condensed", sans-serif;
     padding: 10px;
     text-decoration: none;
     color: #605f5f;
     font-size: 20px;
     cursor: pointer;
+    margin-left: 30px;
 }
 
 .horizontalline {
@@ -315,6 +307,8 @@ li .elementmenu {
     background-color: #605f5f;
     content: "";
     margin: 15px 0px 15px 0px;
+    position:absolute;
+    top:60%;
 }
 
 .managephoto {
@@ -324,6 +318,8 @@ li .elementmenu {
 
 .mobilesection {
     margin: 25px 30px;
+    position: absolute;
+    top:65%;
 }
 
 .description {
@@ -457,7 +453,13 @@ li .elementmenu {
 
 
 /*links*/
+@media(max-width: 762px) {
+    .links {
+       
 
+
+    }
+}
 .links {
     background-color: #FFF;
     display: flex;
