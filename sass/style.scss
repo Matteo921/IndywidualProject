@@ -80,21 +80,21 @@
 .walletbox {
     margin: 5px 8px 0px 10px;
     display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
 .wallet {
     padding: 5px;
     cursor: pointer;
-    &:hover {
-        background-color: #F5F5F2;
-    }
+    
 }
 
 .arrowdown {
     padding: 5px;
     cursor: pointer;
     &:hover {
-        background-color: #F5F5F2;
+        color: #F5F5F2;
     }
 }
 
@@ -118,8 +118,8 @@
     margin-top: 10px;
     cursor: pointer;
     &:hover {
-        background-color: #56819F;
-        opacity: 0.8;
+        background-color: #F5F5F2;
+        
     }
 }
 
@@ -145,6 +145,7 @@
     margin: 0 auto;
     width: 240px;
     transition: 6s;
+    z-index: -1;
 }
 
 .navbar.hidden {
@@ -332,7 +333,13 @@ li .elementmenu {
 
 
 /* General */
+@media(max-width: 762px) {
+    .generalbox {
+       
+    	 overflow-x: auto;
 
+    }
+}
 .generalbox {
     background-color: #FFF;
     display: flex;
@@ -410,7 +417,13 @@ li .elementmenu {
 
 
 /*Statistic*/
+@media(max-width: 762px) {
+    .statisticbox {
+       	display: inline-block;
+    	 overflow-x: auto;
 
+    }
+}
 .statisticbox {
     background-color: #FFF;
     display: flex;
@@ -453,7 +466,7 @@ li .elementmenu {
 @media(max-width: 762px) {
     .links {
        
-
+    	 overflow-x: auto;
 
     }
 }
@@ -609,7 +622,7 @@ label {
 @media(max-width: 762px) {
     .detailtable {
         
-        overflow-x: auto;
+       
         
     }
 }
@@ -622,7 +635,11 @@ label {
     justify-content: center;
     align-items: center;
 }
-
+@media(max-width: 762px) {
+    .detailtable {
+        overflow-x: auto;
+    }
+}
 .detailtable {
     margin-top: 50px;
     width: 100%;

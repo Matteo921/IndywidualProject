@@ -26,7 +26,11 @@ body.hidden{
     padding-left:0px;
     transition: 6s;
 }
-
+@media(max-width: 762px){
+    body{
+        padding-left:0;
+    }
+}
 .row:before,
 .row:after {
     content: "";
@@ -236,5 +240,6 @@ a:link{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        overflow-x: auto;
     }
 }
