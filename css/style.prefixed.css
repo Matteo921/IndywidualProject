@@ -1021,9 +1021,31 @@ li .elementmenu {
   font-weight: 600;
 }
 
+@media (max-width: 762px) {
+  .Wraprow {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    overflow-x: auto;
+  }
+}
+
 .Wraprow {
   margin: 25px;
   padding: 60px;
+}
+
+@media (max-width: 762px) {
+  .statisticwrapper {
+    max-width: 100px;
+    overflow-x: auto;
+    padding: 0px;
+    margin: 0px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
 }
 
 .statisticwrapper {
@@ -1055,9 +1077,21 @@ li .elementmenu {
   padding: 15px;
 }
 
+.diagram {
+  width: 100%;
+}
+
+@media (max-width: 762px) {
+  .diagram {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
 /*links*/
 @media (max-width: 762px) {
   .links {
+    max-width: 100%;
     overflow-x: auto;
   }
 }
