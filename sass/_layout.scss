@@ -18,6 +18,11 @@ body{
     padding-left:250px;
     width: 100%;
     padding-top:60px;
+    transition:6s;
+}
+body.hidden{
+    padding-left:0px;
+    transition: 6s;
 }
 .row:before,
 .row:after {

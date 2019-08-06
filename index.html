@@ -6,520 +6,616 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="sass/normalize.scss" rel="stylesheet">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <link rel="stylesheet" type="text/js" href="js/script.js">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Solo project</title>
+    <title>Solo projekt</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-
 </head>
 
 <body class="general-statistic-template">
 
-	<div class="topbar">
-		<div class="toolsside">
-			<div class="separateline1"></div>
-				<span class="walletbox">
-					<img class="wallet" src="/xd/wallet.svg" type="image/svg+xml"/>
-					<img class="cash" src="xd/$1,500.00.svg" type="image/svg+xml"/>
-					<img class="arrowdown" src="/xd/arrow-down.svg" type="image/svg+xml"/>
+    <div class="topbar">
+
+        <div class="toolsside">
+            <div class="separateline1"></div>
+            <span class="walletbox">
+					<img class="wallet" src="/xd/wallet.svg"  alt="abc"/>
+					<img class="cash" src="xd/$1,500.00.svg"  alt="abc"/>
+					<img class="arrowdown" src="/xd/arrow-down.svg"  alt="abc"/>
 				</span>
-			<div class="separateline"></div>
-				<span class="bellicon"><img
-				class="bell" src="/xd/regular.svg" type="image/svg+xml"/></span>
-			<div class="separateline"></div>
-				<span class="personicon"><img src="/xd/person.svg"/ type="image/svg+xml"></span>
-				<span><p class="name">Leonardo DiCaprio</p></span>
-			<div class="separateline"></div>
-				<span class="exiticon"><img class="exit" src="/xd/exit.svg" type="image/svg+xml"/></span>
-		</div>
-	</div>
+            <div class="separateline"></div>
+            <span class="bellicon"><img
+				class="bell" src="/xd/regular.svg"  alt="abc"/></span>
+            <div class="separateline"></div>
+            <span class="personicon"><img src="/xd/person.svg"  alt="abc"></span>
+            <span><p class="name">Leonardo DiCaprio</p></span>
+            <div class="separateline"></div>
+            <span class="exiticon"><img class="exit" src="/xd/exit.svg" alt="abc"/></span>
+        </div>
+    </div>
 
-	<nav class="navbar" id="navbar">
-			<div class="logomenubox">
-					<a href="#"><img class="logo" src="xd/logo.SVG"></a>
-					<span class="hamburgermenu"></span>
-			</div>
+    <nav class="navbar" id="navbar">
+        <div class="logomenubox">
+            <a href="#"><img class="logo" src="xd/logo.SVG" alt="pic1"></a>
+            <nav>
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <li class="elementmenu"><a class="active_menu" href="#general">General<img class="list" src="/icons/general.svg"  alt="pic"/></a></li>
+                        <li class="elementmenu"><a class="active_menu" href="#details">Details<img class="list" src="/icons/details.svg"   alt="pic"/></a></li>
+                        <li class="elementmenu"><a class="active_menu" href="#links">Links<img class="list" src="/icons/links.svg" alt="pic"  /></a></li>
+                        <li class="elementmenu"><a class="active_menu" href="#banners">Banners<img class="list" src="/icons/banners.svg" alt="pic" /></a></li>
+                        <li class="elementmenu"><a class="active_menu" href="#personaldata">Personal Data<img class="list" src="/icons/personaldata.svg"  alt="pic" /></a></li>
+                        <li class="elementmenu"><a class="active_menu" href="#postback">Postback><img class="list" src="/icons/postback.svg"  alt="pic" /></a></li>
 
-	<div class="sidebar">
-		<ul>
-			<li class="listitem"><a class="activelistitem" href="#general"><span class="item_icon icon-general">General<img class="list" src="/icons/general.svg" type="image/svg+xml" /></a></span></li>
-			<li class="listitem"><a class="activelistitem" href="#details"><span class="item_icon icon-details">Details<img class="list" src="/icons/details.svg" type="image/svg+xml" /></a></span></li>
-			<li class="listitem"><a class="activelistitem" href="#links"><span class="item_icon icon-links">Links<img class="list" src="/icons/links.svg" type="image/svg+xml" /></a></span></li>
-			<li class="listitem"><a class="activelistitem" href="#banners"><span class="item_icon icon-banners">Banners<img class="list" src="/icons/banners.svg" type="image/svg+xml" /></a></span></li>
-			<li class="listitem"><a class="activelistitem" href="#personaldata"><span class="item_icon icon-personaldata">Personal Data<img class="list" src="/icons/personaldata.svg" type="image/svg+xml" /></a></span></li>
-			<li class="listitem"><a class="activelistitem" href="#postback"><span class="item_icon icon-postback">Postback<img class="list" src="/icons/postback.svg" type="image/svg+xml" /></a></span></li>
-				<div class="horizontalline"></div>
-						<div class="mobilesection">
-							<p class="description">YOUR MANAGER</p>
-							<div class="container">
-								<img class="managephoto" src="xd/avatar.SVG" alt="m">
-								<p class="name">Mikhael E.</p>
-							</div>
-						</div>
-		</ul>
-	</div>
+                    </ul>
+                </div>
+            </nav>
 
-</nav>
-<!--Section General-->
-<div class="containergeneral">
-	<div class="generalbox">
-		<div class="textbox">
-			<h3 class="generalheadertext">GENERAL STATISTIC</h3>
-		</div>
-		<div class="date">
-			<div class="datebox">
-				<div class="leftdate">16.05.2016</div>
-				<div class="rightdate">16.05.2016</div>
-				<div class="calcuicon"><img class="calculator" src="/icons/calendar.svg"></div>
-			</div>
-				<button class="returnbtn"><img class="arrowreturn" src="/xd/arroreturn.svg"></button>
-		</div>
-	</div>
+        </div>
 
-<!--Statistic-->
-<div class="statisticbox">
-	<div class="Wraprow">
-		<div class="statisticwrapper">
-			<h4>Visit Singups</h4>
-			<h4>124</h4>
-		</div>
-		<div class="statisticwrapper">
-			<h4>FTD</h4>
-			<h4>445</h4>
-		</div>
-	</div>
-	<div class="Wraprow">
-		<div class="statisticwrapper">
-			<h4>Net Deposit</h4>
-			<h4>564</h4>
-		</div>
-		<div class="statisticwrapper">
-			<h4>Turn over</h4>
-			<h4>432</h4>
-	</div>	
-	</div>
+        <div class="sidebar">
+            <ul class="leftmenu">
+                <li class="listitem"><a class="activelistitem" href="#general"><span class="item_icon icon-general">General<img class="list" src="/icons/general.svg"  alt="pic3" /></a></span>
+                </li>
+                <li class="listitem"><a class="activelistitem" href="#details"><span class="item_icon icon-details">Details<img class="list" src="/icons/details.svg"  alt="pic3" /></a></span>
+                </li>
+                <li class="listitem"><a class="activelistitem" href="#links"><span class="item_icon icon-links">Links<img class="list" src="/icons/links.svg" alt="pic3" /></a></span>
+                </li>
+                <li class="listitem"><a class="activelistitem" href="#banners"><span class="item_icon icon-banners">Banners<img class="list" src="/icons/banners.svg"  alt="pic3" /></a></span>
+                </li>
+                <li class="listitem"><a class="activelistitem" href="#personaldata"><span class="item_icon icon-personaldata">Personal Data<img class="list" src="/icons/personaldata.svg" class="pic3" /></a></span>
+                </li>
+                <li class="listitem"><a class="activelistitem" href="#postback"><span class="item_icon icon-postback">Postback<img class="list" src="/icons/postback.svg"  alt="pic3" /></a></span>
+                </li>
+                <div class="horizontalline"></div>
+                <div class="mobilesection">
+                    <p class="description">YOUR MANAGER</p>
+                    <div class="container">
+                        <img class="managephoto" src="xd/avatar.SVG" alt="m">
+                        <p class="name">Mikhael E.</p>
+                    </div>
+                </div>
+            </ul>
+        </div>
 
-</div>
-	<div class="diagrambox" >
-		<div class="diagram">
-			<h4 class="diagramtitle">Earings chart</h4>
-		
-		<canvas id="myChart" width="800" height="400" style="display:block;" ></canvas>
-		<script type="text/javascript">
-		var ctx = document.getElementById('myChart').getContext('2d');
-				var myChart = new Chart(ctx, {
-				// 1
-				    type: 'bar',
-				    data: {
-				        // 2
-				        labels: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"],
-				        // 3
-				        datasets: [{
-				            // 4
-				            label: "Signups",
-				            // 5
-				            backgroundColor: '#8DBEC8',
-				            borderColor: '#8DBEC8',
-				            // 6
-				            data: [ 52, 51, 41, 94, 26, 6, 72, 9, 21, 88 ],
-				        },
-				        {
-				            label: "FTD",
-				            backgroundColor: '#F29E4E',
-				            borderColor: '#F29E4E',
-				            data: [ 6, 72, 1, 0, 47, 11, 50, 44, 63, 76 ],
-				        },
-				        {
-				            
-				        }]
-				        
-				    },
-				});
-		</script>
-		</div>
-		</div>
-	</div>
+    </nav>
+    <!--Section General-->
+    <div class="containergeneral" id="general">
+        <div class="generalbox">
+            <div class="textbox">
+                <h3 class="generalheadertext">GENERAL STATISTIC</h3>
+            </div>
+            <div class="date">
+                <div class="datebox">
+                    <div class="leftdate">16.05.2016</div>
+                    <div class="rightdate">16.05.2016</div>
+                    <div class="calcuicon"><img class="calculator" src="/icons/calendar.svg" alt="pic2"></div>
+                </div>
+                <button class="returnbtn"><img class="arrowreturn" src="/xd/arroreturn.svg" alt="pic2"></button>
+            </div>
+        </div>
 
-<!--Banners-->
-<div class="containergeneral banners" id="banners">
-	
-	<div class="textbox">
-		<h3 class="generalheadertext">BANNERS</h3>
-	</div>
-<div class="btn-box">
-	<button class="primarybtn">+ add new</button>
-</div>	
-	
-		<div class="table ">
-					<table class="mytable">
-						<tbody>
-						<tr class="table-row">
-							<td class="tabletitle">Sing up banner</td>
-							<td class="tablelink"><a href="#">https://www.website.com/banner.gif</a></td>
-							<td class="tableicon">
-								<a href=""><img class="iconbody" src="/icons/links.svg"></a>
-								<a href=""><img class="iconbody" src="/icons/trash.svg"></a>
-							</td>
+        <!--Statistic-->
+        <div class="statisticbox" id="general">
+            <div class="Wraprow">
+                <div class="statisticwrapper">
+                    <h4>Visit Singups</h4>
+                    <h4>124</h4>
+                </div>
+                <div class="statisticwrapper">
+                    <h4>FTD</h4>
+                    <h4>445</h4>
+                </div>
+            </div>
+            <div class="Wraprow">
+                <div class="statisticwrapper">
+                    <h4>Net Deposit</h4>
+                    <h4>564</h4>
+                </div>
+                <div class="statisticwrapper">
+                    <h4>Turn over</h4>
+                    <h4>432</h4>
+                </div>
+            </div>
 
-						</tr>
-						<tr class="table-row">
-							<td class="tabletitle">Banner main</td>
-							<td class="tablelink"><a href="#">https://www.website.com/bannermain.gif</a></td>
-							<td class="tableicon">
-								<a href=""><img class="iconbody" src="/icons/links.svg"></a>
-								<a href=""><img class="iconbody" src="/icons/trash.svg"></a>
-							</td>
+        </div>
+        <div class="diagrambox">
+            <div class="diagram">
+                <h4 class="diagramtitle">Earings chart</h4>
+                <canvas id="myChart" width="800" height="400" style="display:block;"></canvas>
+            </div>
+        </div>
+        <!-- Links -->
+        <div class="containergeneral links" id="links">
 
-						</tr>
-						<tr class="table-row" >
-							<td class="tabletitle">Banner left side</td>
-							<td class="tablelink"><a href="#">https://www.website.com/leftside.gif</a></td>
-							<td class="tableicon">
-								<a href=""><img class="iconbody" src="/icons/links.svg"></a>
-								<a href=""><img class="iconbody" src="/icons/trash.svg"></a>
-							</td>
+            <div class="textbox">
+                <h3 class="generalheadertext">Links</h3>
+            </div>
+            <div class="btn-box">
+                <button class="primarybtn">+ add new</button>
+            </div>
 
-						</tr>
-						<tr class="table-row" >
-							<td class="tabletitle">Vertical Banner</td>
-							<td class="tablelink"><a href="#">https://www.website.com/vert.gif</a></td>
-							<td class="tableicon">
-								<a href=""><img class="iconbody" src="/icons/links.svg"></a>
-								<a href=""><img class="iconbody" src="/icons/trash.svg"></a>
-							</td>
+            <div class="table ">
+                <table class="mytable">
+                    <tbody>
+                        <tr class="table-row">
+                            <td class="tabletitle">Home page</td>
+                            <td class="tablelink"><a href="#">https://www.homepage.com</a></td>
+                            <td class="tableicon">
+                                <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic4"></a>
+                                <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic4"></a>
+                            </td>
 
-						</tr>
-						<tr class="table-row" >
-							<td class="tabletitle">Front banner</td>
-							<td class="tablelink"><a href="#">https://www.website.com/front.gif</a></td>
-							<td class="tableicon">
-								<a href=""><img class="iconbody" src="/icons/links.svg"></a>
-								<a href=""><img class="iconbody" src="/icons/trash.svg"></a>
-							</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="tabletitle">Currently offer</td>
+                            <td class="tablelink"><a href="#">https://www.website.com/bannermain.gif</a></td>
+                            <td class="tableicon">
+                                <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic4"></a>
+                                <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic4"></a>
+                            </td>
 
-						</tr>
-						<tr class="table-row" >
-							<td class="tabletitle">Horizontal banner</td>
-							<td class="tablelink"><a href="#">https://www.website.com/horizontal.gif</a></td>
-							<td class="tableicon">
-								<a href=""><img class="iconbody" src="/icons/links.svg"></a>
-								<a href=""><img class="iconbody" src="/icons/trash.svg"></a>
-							</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="tabletitle">Blurpix</td>
+                            <td class="tablelink"><a href="#">https://www.website.com/leftside.gif</a></td>
+                            <td class="tableicon">
+                                <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic4"></a>
+                                <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic4"></a>
+                            </td>
 
-						</tr>
-					</tbody>
-				</table>
-			
-	</div>
-			<div class="btn-box">
-				<button class="primarybtn">+ add new</button>
-			</div>
-</div>
-<!--Personal Data-->
-<div class="containergeneral personaldata" id="personaldata">
-		<div class="textbox">
-			<h3 class="generalheadertext">PERSONAL DATA</h3>
-		</div>
-		<div class="field1">
-		<form action="" method="POST">
-				<div class="form-box">
-					<label>Name</label>
-					<input type="text" name="Fristname" placeholder="Leonardo" required minlength="2" maxlength="16">
-				</div>
-				<div class="form-box">
-					<label>Surname</label>
-					<input type="text" name="Surname" placeholder="DiCaprio" required minlength="2" maxlength="16">
-				</div>
-				<div class="form-box">
-					<label>E-mail</label>
-					<input type="text" name="E-mail" placeholder="leonardoDiCaprio@gmail.com" required minlength="2" maxlength="16">
-				</div>
-				<div class="form-box">
-					<label>Phone number</label>
-					<input type="text" name="Phone-number" placeholder="+1 422 552 00 33" pattern="\d+">
-				</div>
-			</form>
-		</div>
-			<div class="field1">
-		<form action="" method="POST">
-				<div class="form-box">
-					<label>Skype</label>
-					<input type="email" name="Skype" placeholder="Leonardo.D">
-				</div>
-				<div class="form-box">
-					<label>ICQ</label>
-					<input type="text" name="ICQ">
-				</div>
-				<div class="form-box">
-					<label>Msn</label>
-					<input type="text" name="Msn">
-				</div>
-			</form>
-		</div>
-			<div class="field1">
-		<form action="" method="POST">
-				<div class="form-box">
-					<label>Wallet</label>
-					<input type="text" name="Wallet">
-				</div>
-			</form>
-		</div>
-			<div class="field1">
-		<form action="" method="POST">
-				<div class="form-box">
-					<label>Password</label>
-					<input type="text" name="Password">
-				</div>
-				<div class="form-box">
-					<label>Repeat</label>
-					<input type="text" name="Repeat">
-				</div>
-			</form>
-		</div>
-		<div class="btn-box">
-		<input class=" save-btn" type="submit" form="">
-		</div>
-</div>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="tabletitle">Your Site</td>
+                            <td class="tablelink"><a href="#">https://www.website.com/vert.gif</a></td>
+                            <td class="tableicon">
+                                <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic4"></a>
+                                <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic4"></a>
+                            </td>
 
+                        </tr>
+                        <tr class="table-row">
+                            <td class="tabletitle">Facebook</td>
+                            <td class="tablelink"><a href="#">https://www.website.com/front.gif</a></td>
+                            <td class="tableicon">
+                                <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic4"></a>
+                                <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic4"></a>
+                            </td>
 
+                        </tr>
+                        <tr class="table-row">
+                            <td class="tabletitle">Dashboard</td>
+                            <td class="tablelink"><a href="#">https://www.website.com/horizontal.gif</a></td>
+                            <td class="tableicon">
+                                <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic4"></a>
+                                <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic4"></a>
+                            </td>
 
-<div class="containergeneral detailstatistic" id="detailstatistic">
-	<div class="textbox">
-			<h3 class="generalheadertext">DETAIL STATISTIC</h3>
-		</div>
-	<div class="date">
-			<div class="datebox">
-				<div class="leftdate">16.05.2016</div>
-				<div class="rightdate">16.05.2016</div>
-				<div class="calcuicon"><img class="calculator" src="/icons/calendar.svg"></div>
-			</div>
-				<button class="returnbtn"><img class="arrowreturn" src="/xd/arroreturn.svg"></button>
-		</div>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="tabletitle">Blurax</td>
+                            <td class="tablelink"><a href="#">https://www.website.com/horizontal.gif</a></td>
+                            <td class="tableicon">
+                                <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic4"></a>
+                                <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic4"></a>
+                            </td>
 
+                        </tr>
+                        <tr class="table-row">
+                            <td class="tabletitle">Piece of Wine</td>
+                            <td class="tablelink"><a href="#">https://www.website.com/horizontal.gif</a></td>
+                            <td class="tableicon">
+                                <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic4"></a>
+                                <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic4"></a>
+                            </td>
 
-<div class="detailtable">
-	<tbody>
-		<table class="tg">
-  <tr>
-    <th class="tg-5r25">Tracker name</th>
-    <th class="tg-0pky">Initiaded date</th>
-    <th class="tg-0pky">Visits</th>
-    <th class="tg-0pky">Unique</th>
-    <th class="tg-0pky">Singups</th>
-    <th class="tg-0pky">FTD</th>
-    <th class="tg-0pky">Depositors</th>
-    <th class="tg-0pky">Deposits ($)</th>
-    <th class="tg-0pky">Payout ($)</th>
-    <th class="tg-0pky">Turnover</th>
-    <th class="tg-0pky">Deal</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky">aff/sam_test</td>
-    <td class="tg-0pky">17/08/02 (12:58)</td>
-    <td class="tg-0pky">232	</td>
-    <td class="tg-0pky">114</td>
-    <td class="tg-0pky">12	</td>
-    <td class="tg-0pky">6</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">34,425.00	</td>
-    <td class="tg-0pky">234.00</td>
-    <td class="tg-0pky">421.342.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">aff/leo_test</td>
-    <td class="tg-0pky">15/08/02 (12:58)</td>
-    <td class="tg-0pky">232</td>
-    <td class="tg-0pky">114</td>
-    <td class="tg-0pky">12	</td>
-    <td class="tg-0pky">6</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">34,425.00</td>
-    <td class="tg-0pky">234.00</td>
-    <td class="tg-0pky">421.342.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">aff/sam_test</td>
-    <td class="tg-0pky">17/08/02 (12:58)</td>
-    <td class="tg-0pky">112	</td>
-    <td class="tg-0pky">100</td>
-    <td class="tg-0pky">22</td>
-    <td class="tg-0pky">4</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">22,415.00	</td>
-    <td class="tg-0pky">341.00	</td>
-    <td class="tg-0pky">522.342.00	</td>
-    <td class="tg-0pky">cpl (200)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">aff/leo_test	</td>
-    <td class="tg-0pky">33/08/02 (12:58)	</td>
-    <td class="tg-0pky">232</td>
-    <td class="tg-0pky">114</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">6</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">34,425.00	</td>
-    <td class="tg-0pky">234.00	</td>
-    <td class="tg-0pky">421.342.00	</td>
-    <td class="tg-0pky">cpl (200)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">aff/sam_test	</td>
-    <td class="tg-0pky">17/08/02 (12:58)	</td>
-    <td class="tg-0pky">112</td>
-    <td class="tg-0pky">100</td>
-    <td class="tg-0pky">22</td>
-    <td class="tg-0pky">4</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">22,415.00	</td>
-    <td class="tg-0pky">341.00	</td>
-    <td class="tg-0pky">522.342.00	</td>
-    <td class="tg-0pky">cpl (200)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">aff/leo_test	</td>
-    <td class="tg-0pky">13/08/02 (12:58)	</td>
-    <td class="tg-0pky">232</td>
-    <td class="tg-0pky">114</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">6</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">34,425.00	</td>
-    <td class="tg-0pky">234.00</td>
-    <td class="tg-0pky">421.342.00	</td>
-    <td class="tg-0pky">cpl (200)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">aff/sam_test	</td>
-    <td class="tg-0pky">17/08/02 (12:58)	</td>
-    <td class="tg-0pky">112</td>
-    <td class="tg-0pky">100</td>
-    <td class="tg-0pky">22</td>
-    <td class="tg-0pky">4</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">22,415.00	</td>
-    <td class="tg-0pky">341.00</td>
-    <td class="tg-0pky">522.342.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">aff/leo_test</td>
-    <td class="tg-0pky">19/08/02 (12:58)</td>
-    <td class="tg-0pky">232</td>
-    <td class="tg-0pky">111	</td>
-    <td class="tg-0pky">12</td>
-    <td class="tg-0pky">6</td>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">34,425.00</td>
-    <td class="tg-0pky">234.00</td>
-    <td class="tg-0pky">421.342.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-  </tr>
-</table>
-	</tbody>
-	<ul class="listpagenumber">
-		<a href=""><</a>
-		<li>1</li>
-		<li>2</li>
-		<li>3</li>
-		<li>4</li>
-		<li>5</li>
-		<li>6</li>
-		<li>7</li>
-		<li>8</li>
-		<li>9</li>
-		<a href="">></a>
-	</ul>
-</div>
-</div>
-<!--Payout History-->
-<div class="containergeneral payouthistory" id="payout">
-	<div class="textbox">
-			<h3 class="generalheadertext">PAYOUT HISTORY</h3>
-		</div>
-	<div class="date">
-			<div class="datebox">
-				<div class="leftdate">16.05.2016</div>
-				<div class="rightdate">16.05.2016</div>
-				<div class="calcuicon"><img class="calculator" src="/icons/calendar.svg"></div>
-			</div>
-				<button class="returnbtn"><img class="arrowreturn" src="/xd/arroreturn.svg"></button>
-		</div>
-	<div class="detailtable">
-		<table class="tg">
-  <tr>
-    <th class="tg-0pky">Date</th>
-    <th class="tg-0pky">Amount ($)</th>
-    <th class="tg-0pky">Deal</th>
-    <th class="tg-0pky">Account</th>
-    
-  </tr>
-  <tr>
-    <td class="tg-0pky">17/08/02 (12:58)</td>
-    <td class="tg-0pky">34,425.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-    <td class="tg-0pky">bank</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">15/08/02 (12:58)</td>
-    <td class="tg-0pky">34,425.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-    <td class="tg-0pky">bank</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">17/08/02 (12:58)</td>
-    <td class="tg-0pky">22,415.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-    <td class="tg-0pky">bank</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td class="tabletitle">Twitter</td>
+                            <td class="tablelink"><a href="#">https://www.website.com/horizontal.gif</a></td>
+                            <td class="tableicon">
+                                <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic4"></a>
+                                <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic4"></a>
+                            </td>
 
-  </tr>
-  <tr>
-    <td class="tg-0pky">33/08/02 (12:58)</td>
-    <td class="tg-0pky">34,425.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-    <td class="tg-0pky">bank</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">17/08/02 (12:58)</td>
-    <td class="tg-0pky">22,415.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-    <td class="tg-0pky">bank</td>
+                        </tr>
 
-  </tr>
-  <tr>
-    <td class="tg-0pky">13/08/02 (12:58)</td>
-    <td class="tg-0pky">34,425.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-    <td class="tg-0pky">bank</td>
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn-box">
+                <button class="primarybtn">+ add new</button>
+            </div>
+        </div>
+    </div>
+    <!--Banners-->
+    <div class="containergeneral banners" id="banners">
 
-  </tr>
-  <tr>
-    <td class="tg-0pky">17/08/02 (12:58)</td>
-    <td class="tg-0pky">22,415.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-    <td class="tg-0pky">bank</td>
+        <div class="textbox">
+            <h3 class="generalheadertext">BANNERS</h3>
+        </div>
+        <div class="btn-box">
+            <button class="primarybtn">+ add new</button>
+        </div>
 
-  </tr>
-  <tr>
-    <td class="tg-0pky">19/08/02 (12:58)</td>
-    <td class="tg-0pky">34,425.00</td>
-    <td class="tg-0pky">cpl (200)</td>
-    <td class="tg-0pky">bank</td>
+        <div class="table ">
+            <table class="mytable">
+                <tbody>
+                    <tr class="table-row">
+                        <td class="tabletitle">Sing up banner</td>
+                        <td class="tablelink"><a href="#">https://www.website.com/banner.gif</a></td>
+                        <td class="tableicon">
+                            <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic6"></a>
+                            <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic6"></a>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="tabletitle">Banner main</td>
+                        <td class="tablelink"><a href="#">https://www.website.com/bannermain.gif</a></td>
+                        <td class="tableicon">
+                            <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic6"></a>
+                            <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic6"></a>
+                        </td>
 
-  </tr>
-</table>
-	</div>
-</div>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="tabletitle">Banner left side</td>
+                        <td class="tablelink"><a href="#">https://www.website.com/leftside.gif</a></td>
+                        <td class="tableicon">
+                            <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic6"></a>
+                            <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic6"></a>
+                        </td>
+
+                    </tr>
+                    <tr class="table-row">
+                        <td class="tabletitle">Vertical Banner</td>
+                        <td class="tablelink"><a href="#">https://www.website.com/vert.gif</a></td>
+                        <td class="tableicon">
+                            <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic6"></a>
+                            <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic6"></a>
+                        </td>
+
+                    </tr>
+                    <tr class="table-row">
+                        <td class="tabletitle">Front banner</td>
+                        <td class="tablelink"><a href="#">https://www.website.com/front.gif</a></td>
+                        <td class="tableicon">
+                            <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic6"></a>
+                            <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic6"></a>
+                        </td>
+
+                    </tr>
+                    <tr class="table-row">
+                        <td class="tabletitle">Horizontal banner</td>
+                        <td class="tablelink"><a href="#">https://www.website.com/horizontal.gif</a></td>
+                        <td class="tableicon">
+                            <a href=""><img class="iconbody" src="/icons/links.svg" alt="pic6"></a>
+                            <a href=""><img class="iconbody" src="/icons/trash.svg" alt="pic6"></a>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="btn-box">
+            <button class="primarybtn">+ add new</button>
+        </div>
+    </div>
+    <!--Personal Data-->
+    <div class="containergeneral personaldata" id="personaldata">
+        <div class="textbox">
+            <h3 class="generalheadertext">PERSONAL DATA</h3>
+        </div>
+        <div class="field1">
+            <form  method="POST">
+                <div class="form-box">
+                    <label>Name</label>
+                    <input type="text" name="Fristname" placeholder="Leonardo" required minlength="2" maxlength="16">
+                </div>
+                <div class="form-box">
+                    <label>Surname</label>
+                    <input type="text" name="Surname" placeholder="DiCaprio" required minlength="2" maxlength="16">
+                </div>
+                <div class="form-box">
+                    <label>E-mail</label>
+                    <input type="text" name="E-mail" placeholder="leonardoDiCaprio@gmail.com" required minlength="2" maxlength="16">
+                </div>
+                <div class="form-box">
+                    <label>Phone number</label>
+                    <input type="text" name="Phone-number" placeholder="+1 422 552 00 33" pattern="\d+">
+                </div>
+            </form>
+        </div>
+        <div class="field1">
+            <form method="POST">
+                <div class="form-box">
+                    <label>Skype</label>
+                    <input type="email" name="Skype" placeholder="Leonardo.D">
+                </div>
+                <div class="form-box">
+                    <label>ICQ</label>
+                    <input type="text" name="ICQ">
+                </div>
+                <div class="form-box">
+                    <label>Msn</label>
+                    <input type="text" name="Msn">
+                </div>
+            </form>
+        </div>
+        <div class="field1">
+            <form method="POST">
+                <div class="form-box">
+                    <label>Wallet</label>
+                    <input type="text" name="Wallet">
+                </div>
+            </form>
+        </div>
+        <div class="field1">
+            <form  method="POST">
+                <div class="form-box">
+                    <label>Password</label>
+                    <input type="text" name="Password">
+                </div>
+                <div class="form-box">
+                    <label>Repeat</label>
+                    <input type="text" name="Repeat">
+                </div>
+            </form>
+        </div>
+        <div class="btn-box">
+            <input class=" save-btn" type="submit">
+        </div>
+    </div>
+
+    <div class="containergeneral detailstatistic" id="details">
+        <div class="textbox">
+            <h3 class="generalheadertext">DETAIL STATISTIC</h3>
+        </div>
+        <div class="date">
+            <div class="datebox">
+                <div class="leftdate">16.05.2016</div>
+                <div class="rightdate">16.05.2016</div>
+                <div class="calcuicon"><img class="calculator" src="/icons/calendar.svg" alt="pict"></div>
+            </div>
+            <button class="returnbtn"><img class="arrowreturn" src="/xd/arroreturn.svg" alt="pict"></button>
+        </div>
+
+        <div class="detailtable">
+
+            <table class="tg">
+                <tbody>
+                    <tr>
+                        <th class="tg-5r25">Tracker name</th>
+                        <th class="tg-0pky">Initiaded date</th>
+                        <th class="tg-0pky">Visits</th>
+                        <th class="tg-0pky">Unique</th>
+                        <th class="tg-0pky">Singups</th>
+                        <th class="tg-0pky">FTD</th>
+                        <th class="tg-0pky">Depositors</th>
+                        <th class="tg-0pky">Deposits ($)</th>
+                        <th class="tg-0pky">Payout ($)</th>
+                        <th class="tg-0pky">Turnover</th>
+                        <th class="tg-0pky">Deal</th>
+                    </tr>
+                    <tr>
+                        <td class="tg-0pky">aff/sam_test</td>
+                        <td class="tg-0pky">17/08/02 (12:58)</td>
+                        <td class="tg-0pky">232 </td>
+                        <td class="tg-0pky">114</td>
+                        <td class="tg-0pky">12 </td>
+                        <td class="tg-0pky">6</td>
+                        <td class="tg-0pky">3</td>
+                        <td class="tg-0pky">34,425.00 </td>
+                        <td class="tg-0pky">234.00</td>
+                        <td class="tg-0pky">421.342.00</td>
+                        <td class="tg-0pky">cpl (200)</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0pky">aff/leo_test</td>
+                        <td class="tg-0pky">15/08/02 (12:58)</td>
+                        <td class="tg-0pky">232</td>
+                        <td class="tg-0pky">114</td>
+                        <td class="tg-0pky">12 </td>
+                        <td class="tg-0pky">6</td>
+                        <td class="tg-0pky">3</td>
+                        <td class="tg-0pky">34,425.00</td>
+                        <td class="tg-0pky">234.00</td>
+                        <td class="tg-0pky">421.342.00</td>
+                        <td class="tg-0pky">cpl (200)</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0pky">aff/sam_test</td>
+                        <td class="tg-0pky">17/08/02 (12:58)</td>
+                        <td class="tg-0pky">112 </td>
+                        <td class="tg-0pky">100</td>
+                        <td class="tg-0pky">22</td>
+                        <td class="tg-0pky">4</td>
+                        <td class="tg-0pky">3</td>
+                        <td class="tg-0pky">22,415.00 </td>
+                        <td class="tg-0pky">341.00 </td>
+                        <td class="tg-0pky">522.342.00 </td>
+                        <td class="tg-0pky">cpl (200)</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0pky">aff/leo_test </td>
+                        <td class="tg-0pky">33/08/02 (12:58) </td>
+                        <td class="tg-0pky">232</td>
+                        <td class="tg-0pky">114</td>
+                        <td class="tg-0pky">12</td>
+                        <td class="tg-0pky">6</td>
+                        <td class="tg-0pky">3</td>
+                        <td class="tg-0pky">34,425.00 </td>
+                        <td class="tg-0pky">234.00 </td>
+                        <td class="tg-0pky">421.342.00 </td>
+                        <td class="tg-0pky">cpl (200)</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0pky">aff/sam_test </td>
+                        <td class="tg-0pky">17/08/02 (12:58) </td>
+                        <td class="tg-0pky">112</td>
+                        <td class="tg-0pky">100</td>
+                        <td class="tg-0pky">22</td>
+                        <td class="tg-0pky">4</td>
+                        <td class="tg-0pky">3</td>
+                        <td class="tg-0pky">22,415.00 </td>
+                        <td class="tg-0pky">341.00 </td>
+                        <td class="tg-0pky">522.342.00 </td>
+                        <td class="tg-0pky">cpl (200)</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0pky">aff/leo_test </td>
+                        <td class="tg-0pky">13/08/02 (12:58) </td>
+                        <td class="tg-0pky">232</td>
+                        <td class="tg-0pky">114</td>
+                        <td class="tg-0pky">12</td>
+                        <td class="tg-0pky">6</td>
+                        <td class="tg-0pky">3</td>
+                        <td class="tg-0pky">34,425.00 </td>
+                        <td class="tg-0pky">234.00</td>
+                        <td class="tg-0pky">421.342.00 </td>
+                        <td class="tg-0pky">cpl (200)</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0pky">aff/sam_test </td>
+                        <td class="tg-0pky">17/08/02 (12:58) </td>
+                        <td class="tg-0pky">112</td>
+                        <td class="tg-0pky">100</td>
+                        <td class="tg-0pky">22</td>
+                        <td class="tg-0pky">4</td>
+                        <td class="tg-0pky">3</td>
+                        <td class="tg-0pky">22,415.00 </td>
+                        <td class="tg-0pky">341.00</td>
+                        <td class="tg-0pky">522.342.00</td>
+                        <td class="tg-0pky">cpl (200)</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0pky">aff/leo_test</td>
+                        <td class="tg-0pky">19/08/02 (12:58)</td>
+                        <td class="tg-0pky">232</td>
+                        <td class="tg-0pky">111 </td>
+                        <td class="tg-0pky">12</td>
+                        <td class="tg-0pky">6</td>
+                        <td class="tg-0pky">3</td>
+                        <td class="tg-0pky">34,425.00</td>
+                        <td class="tg-0pky">234.00</td>
+                        <td class="tg-0pky">421.342.00</td>
+                        <td class="tg-0pky">cpl (200)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <ul class="listpagenumber">
+                <li class="listnumber"><a href="">&lt;</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">1</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">2</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">3</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">4</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">5</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">6</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">7</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">8</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">9</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">&gt;</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Payout History-->
+    <div class="containergeneral postdata" id="postback">
+        <div class="textbox">
+            <h3 class="generalheadertext">PAYOUT HISTORY</h3>
+        </div>
+        <div class="date">
+            <div class="datebox">
+                <div class="leftdate">16.05.2016</div>
+                <div class="rightdate">16.05.2016</div>
+                <div class="calcuicon"><img class="calculator" src="/icons/calendar.svg" alt="pic7"></div>
+            </div>
+            <button class="returnbtn"><img class="arrowreturn" src="/xd/arroreturn.svg" alt="pic7"></button>
+        </div>
+        <div class="detailtable">
+            <table class="tg">
+                <tr>
+                    <th class="tg-0pky">Date</th>
+                    <th class="tg-0pky">Amount ($)</th>
+                    <th class="tg-0pky">Deal</th>
+                    <th class="tg-0pky">Account</th>
+
+                </tr>
+                <tr>
+                    <td class="tg-0pky">17/08/02 (12:58)</td>
+                    <td class="tg-0pky">34,425.00</td>
+                    <td class="tg-0pky">cpl (200)</td>
+                    <td class="tg-0pky">bank</td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky">15/08/02 (12:58)</td>
+                    <td class="tg-0pky">34,425.00</td>
+                    <td class="tg-0pky">cpl (200)</td>
+                    <td class="tg-0pky">bank</td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky">17/08/02 (12:58)</td>
+                    <td class="tg-0pky">22,415.00</td>
+                    <td class="tg-0pky">cpl (200)</td>
+                    <td class="tg-0pky">bank</td>
+
+                </tr>
+                <tr>
+                    <td class="tg-0pky">33/08/02 (12:58)</td>
+                    <td class="tg-0pky">34,425.00</td>
+                    <td class="tg-0pky">cpl (200)</td>
+                    <td class="tg-0pky">bank</td>
+                </tr>
+                <tr>
+                    <td class="tg-0pky">17/08/02 (12:58)</td>
+                    <td class="tg-0pky">22,415.00</td>
+                    <td class="tg-0pky">cpl (200)</td>
+                    <td class="tg-0pky">bank</td>
+
+                </tr>
+                <tr>
+                    <td class="tg-0pky">13/08/02 (12:58)</td>
+                    <td class="tg-0pky">34,425.00</td>
+                    <td class="tg-0pky">cpl (200)</td>
+                    <td class="tg-0pky">bank</td>
+
+                </tr>
+                <tr>
+                    <td class="tg-0pky">17/08/02 (12:58)</td>
+                    <td class="tg-0pky">22,415.00</td>
+                    <td class="tg-0pky">cpl (200)</td>
+                    <td class="tg-0pky">bank</td>
+
+                </tr>
+                <tr>
+                    <td class="tg-0pky">19/08/02 (12:58)</td>
+                    <td class="tg-0pky">34,425.00</td>
+                    <td class="tg-0pky">cpl (200)</td>
+                    <td class="tg-0pky">bank</td>
+
+                </tr>
+            </table>
+            <ul class="listpagenumber">
+                <li class="listnumber"><a href="">&lt;</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">1</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">2</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">3</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">4</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">5</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">6</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">7</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">8</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">9</a></li>
+                <li class="listnumber"><a class="activenumber1" href="">&gt;</a></li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 <!--Script-->
@@ -527,4 +623,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
 <!---->
+
 </html>
