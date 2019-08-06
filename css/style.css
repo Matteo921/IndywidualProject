@@ -720,7 +720,6 @@ a:link {
   margin: 0 auto;
   width: 240px;
   transition: 6s;
-  z-index: -1;
 }
 
 .navbar.hidden {
@@ -746,7 +745,7 @@ li .elementmenu {
 
 #menuToggle {
   display: block;
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 150px;
   z-index: 1;
