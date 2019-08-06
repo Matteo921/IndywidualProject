@@ -232,7 +232,7 @@ li .elementmenu {
 #menu {
     position: absolute;
     width: 300px;
-    margin: 100px 0 0 150px;
+    margin: -100px 0 0 -450px;
     padding: 50px;
     padding-top: 125px;
     background: #ededed;
@@ -243,10 +243,7 @@ li .elementmenu {
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 }
 
-#menu li {
-    padding: 10px 0;
-    font-size: 22px;
-}
+
 
 #menuToggle input:checked ~ ul {
     transform: none;
@@ -609,7 +606,13 @@ label {
 
 
 /*detailstatistic*/
-
+@media(max-width: 762px) {
+    .detailtable {
+        
+        overflow-x: auto;
+        
+    }
+}
 .detailstatistic {
     background-color: #FFF;
     display: flex;
@@ -642,7 +645,7 @@ tr {
 .tg td {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 14px;
-    padding: 30px;
+    padding: 20px;
     overflow: hidden;
     word-break: normal;
 }

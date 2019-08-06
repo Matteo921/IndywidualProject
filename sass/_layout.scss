@@ -21,10 +21,12 @@ body{
     padding-top:60px;
     transition:6s;
 }
+
 body.hidden{
     padding-left:0px;
     transition: 6s;
 }
+
 .row:before,
 .row:after {
     content: "";
@@ -227,4 +229,12 @@ a:link{
     background-color: #f5f5f2;
     margin: 10px;
     font-family: "Roboto Condensed", sans-serif;
+}
+@media(max-width: 762px) {
+    .containergeneral {
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
